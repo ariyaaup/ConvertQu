@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ConvertQu</string>
+    <string-array name="currency_list">
+        <item>USD</item>
+        <item>AUD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+  <!--nanti tambahin sesuai kebutuhan-->
+    </string-array>
 </resources>
