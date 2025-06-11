@@ -32,16 +32,19 @@ class HomeActivity : AppCompatActivity() {
         currencySpinner2 = findViewById<Spinner>(R.id.currencySpinner2)*/
 
         val flags = listOf(
-            R.drawable.usa_img, R.drawable.usa_img, R.drawable.usa_img, R.drawable.usa_img, R
-                .drawable.usa_img, R.drawable.usa_img, R.drawable.usa_img, R.drawable.usa_img, R
-                    .drawable.usa_img,R.drawable.usa_img, R.drawable.usa_img, R.drawable.usa_img,
-            R.drawable.usa_img, R.drawable.usa_img, R.drawable.usa_img,R.drawable.usa_img, R
-                .drawable.usa_img, R.drawable.usa_img,R.drawable.usa_img, R.drawable.usa_img, R
-                    .drawable.usa_img,R.drawable.usa_img, R.drawable.usa_img, R.drawable.usa_img,
-            R.drawable.usa_img, R.drawable.usa_img, R.drawable.usa_img,R.drawable.usa_img, R
-                .drawable.usa_img, R.drawable.usa_img,R.drawable.usa_img, R.drawable.usa_img, R.drawable.usa_img
+            R.drawable.usa_img, R.drawable.australia, R.drawable.bulgaria, R.drawable.brazil, R
+                .drawable.canada, R.drawable.switzerland, R.drawable.china, R.drawable.ceko, R
+                    .drawable.denmark,R.drawable.european, R.drawable.uk_british, R.drawable.hong_kong,
+            R.drawable.croasia, R.drawable.hungaria, R.drawable.indonesia,R.drawable.iceland, R
+                .drawable.india, R.drawable.israel,R.drawable.japan, R.drawable.south_korea, R
+                    .drawable.mexico, R.drawable.malaysia, R.drawable.norway,
+            R.drawable.new_zealand, R.drawable.philippine, R.drawable.poland,R.drawable.romania, R
+                .drawable.rusia, R.drawable.swedia, R.drawable.singapore, R.drawable.thailand, R
+                    .drawable.turkey,  R.drawable.south_africa,
         )
-        val countries = listOf("USD","AUD","BGN","BRL", "CAD", "CHF","CNY","CZK","DKK","EUR","GBP","HKD","HRK","HUF","IDR","ILS","INR","ISK","JPY","KRW","MXN","MYR","NOK","NZD","PHP","PLN","RON","RUB","SEK","SGD","THB","TRY","ZAR")
+        val countries = listOf("USD","AUD","BGN","BRL", "CAD", "CHF","CNY",
+            "CZK","DKK","EUR","GBP","HKD","HRK","HUF","IDR","ILS","INR","ISK","JPY",
+            "KRW","MXN","MYR","NOK","NZD","PHP","PLN","RON","RUB","SEK","SGD","THB","TRY","ZAR")
 
         val spinner1 = findViewById<Spinner>(R.id.currencySpinner1)
         val spinner2 = findViewById<Spinner>(R.id.currencySpinner2)

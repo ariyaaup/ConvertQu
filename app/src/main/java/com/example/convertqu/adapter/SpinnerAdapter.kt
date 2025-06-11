@@ -14,8 +14,8 @@ import com.example.convertqu.R
 
 class SpinnerAdapter(
     context: Context,
-    private val flags: List<Int>, // List of drawable resource IDs for flags
-    private val countries: List<String> // List of country names
+    private val flags: List<Int>,
+    private val countries: List<String>
 ) : ArrayAdapter<String>(context, 0, countries) {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
